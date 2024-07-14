@@ -1,0 +1,96 @@
+.resume {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.resume__pdf {
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-around;
+}
+
+.resume__content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.resume__btn {
+    cursor: pointer;
+    background-color: initial;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    color: #eee;
+    display: block;
+    font-size: 44px;
+    font-weight: 500;
+    padding: 20px 30px;
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 1180px) {
+    .resume__btn {
+        margin-left: 50px;
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .resume__btn {
+        font-size: 24px;
+    }
+
+    .resume__pdf iframe {
+        width: 400px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .resume {
+        flex-direction: column-reverse;
+    }
+
+    .resume__content {
+        flex-direction: row;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .resume__btn {
+        margin-left: 0;
+    }
+
+    .resume__pdf {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .resume__btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .resume__pdf iframe {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .resume__content {
+        gap: 10px;
+    }
+
+    .resume__btn {
+        padding: 8px;
+    }
+
+    .resume__pdf iframe {
+        width: 250px;
+        height: 250px;
+    }
+}

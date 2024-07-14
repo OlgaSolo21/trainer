@@ -1,0 +1,14 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./utils/interface.css);
+@import url(./components/App/App.css);
+@import url(./components/AboutMe/AboutMe.css);
+@import url(./components/Footer/Footer.css);
+@import url(./components/Header/Header.css);
+@import url(./components/BurgerMenuPopup/BurgerMenuPopup.css);
+@import url(./components/Contacts/Contacts.css);
+@import url(./components/Carousel/Carousel.css);
+@import url(./components/Menu/Menu.css);
+@import url(./components/MenuListAll/MenulistAll.css);
+@import url(./components/Resume/Resume.css);
+
