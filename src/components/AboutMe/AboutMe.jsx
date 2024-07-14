@@ -2,7 +2,7 @@ import profileImg from "../../images/myFoto.jpg"
 
 function AboutMe() {
     return (
-        <main className="container" id="aboutMe">
+        <section className="container">
             <div className="aboutMe__info">
                 <div className="aboutMe__profile">
                     <h2 className="aboutMe__greeting">HI, THERE!</h2>
@@ -20,7 +20,7 @@ function AboutMe() {
                 </div>
                 <img className="aboutMe__pic" src={profileImg} alt="фото профиля"/>
             </div>
-        </main>
+        </section>
     )
 }
 
