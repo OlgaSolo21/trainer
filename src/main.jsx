@@ -2,13 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from '../src/components/App/App.jsx'
 import './index.css'
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <BrowserRouter basename="/trainer-s-portfolio">
+      <HashRouter>
           <App />
-      </BrowserRouter>
+      </HashRouter>
   </React.StrictMode>,
 )

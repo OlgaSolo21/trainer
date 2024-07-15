@@ -1,6 +1,6 @@
 import Header from "../Header/Header";
 import AboutMe from "../AboutMe/AboutMe";
-import {Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import {useState} from "react";
 import BurgerMenuPopup from "../BurgerMenuPopup/BurgerMenuPopup";
@@ -26,23 +26,37 @@ function App() {
             <Header openBurger={handleOpenBurger}/>
 
             <Routes>
-                <Route path="/trainer-s-portfolio/"
+                <Route exact path="/"
                        element={<AboutMe/>} />
-                <Route path="/trainer-s-portfolio/contacts"
+                <Route path="/contacts"
                        element={<Contacts/>}/>
-                <Route path="/trainer-s-portfolio/portfolio"
+                <Route path="/portfolio"
                        element={<Portfolio/>}/>
-                <Route path="/trainer-s-portfolio/resume"
+                <Route path="/resume"
                        element={<Resume />}/>
-                <Route path="/trainer-s-portfolio/portfolio/trainings"
+                <Route path="/portfolio/trainings"
                        element={<Trainings/>}/>
-                <Route path="/trainer-s-portfolio/portfolio/courses"
+                <Route path="/portfolio/courses"
                        element={<Courses/>}/>
-                <Route path="/trainer-s-portfolio/portfolio/wellbeing"
+                <Route path="/portfolio/wellbeing"
                        element={<WellBeing/>}/>
-                <Route path="/trainer-s-portfolio/portfolio/webinars"
+                <Route path="/portfolio/webinars"
                        element={<Webinars/>}/>
             </Routes>
+            {/*<Switch>*/}
+            {/*    <Route exact path="/">*/}
+            {/*        <AboutMe/>*/}
+            {/*    </Route>*/}
+            {/*    <Route path="/contacts">*/}
+            {/*           <Contacts/>*/}
+            {/*    </Route>*/}
+            {/*    <Route path="/portfolio">*/}
+            {/*           <Portfolio/>*/}
+            {/*    </Route>*/}
+            {/*    <Route path="/resume">*/}
+            {/*           <Resume />*/}
+            {/*    </Route>*/}
+            {/*</Switch>*/}
 
             <Footer/>
 

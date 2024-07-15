@@ -7,15 +7,15 @@ export default function Header({ openBurger }) {
             <div className="header">
                 <Link className="header__link-logo link" to="/"/>
                 <div className="header__links">
-                    <NavLink to="/trainer-s-portfolio/" className={({isActive}) =>
+                    <NavLink to="/" className={({isActive}) =>
                         `${isActive ? "header__active" : "header__inactive"} link`}>Главная</NavLink>
                     {/*<NavLink to="/aboutMe" className={({isActive}) =>*/}
                     {/*    `${isActive ? "header__active" : "header__inactive"} link`}>Обо мне</NavLink>*/}
-                    <NavLink to="/trainer-s-portfolio/portfolio" className={({isActive}) =>
+                    <NavLink to="/portfolio" className={({isActive}) =>
                         `${isActive ? "header__active" : "header__inactive"} link`}>Портфолио</NavLink>
-                    <NavLink to="/trainer-s-portfolio/contacts" className={({isActive}) =>
+                    <NavLink to="/contacts" className={({isActive}) =>
                         `${isActive ? "header__active" : "header__inactive"} link`}>Контакты</NavLink>
-                    <NavLink to="/trainer-s-portfolio/resume" className={({isActive}) =>
+                    <NavLink to="/resume" className={({isActive}) =>
                         `${isActive ? "header__active" : "header__inactive"} link`}>Резюме</NavLink>
                 </div>
                 <div className="burger">
