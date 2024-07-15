@@ -26,21 +26,21 @@ function App() {
             <Header openBurger={handleOpenBurger}/>
 
             <Routes>
-                <Route path="/"
+                <Route path="/trainer-s-portfolio"
                        element={<AboutMe/>} />
-                <Route path="/contacts"
+                <Route path="/trainer-s-portfolio/contacts"
                        element={<Contacts/>}/>
-                <Route path="/portfolio"
+                <Route path="/trainer-s-portfolio/portfolio"
                        element={<Portfolio/>}/>
-                <Route path="/resume"
+                <Route path="/trainer-s-portfolio/resume"
                        element={<Resume />}/>
-                <Route path="/portfolio/trainings"
+                <Route path="/trainer-s-portfolio/portfolio/trainings"
                        element={<Trainings/>}/>
-                <Route path="/portfolio/courses"
+                <Route path="/trainer-s-portfolio/portfolio/courses"
                        element={<Courses/>}/>
-                <Route path="/portfolio/wellbeing"
+                <Route path="/trainer-s-portfolio/portfolio/wellbeing"
                        element={<WellBeing/>}/>
-                <Route path="/portfolio/webinars"
+                <Route path="/trainer-s-portfolio/portfolio/webinars"
                        element={<Webinars/>}/>
             </Routes>
 
