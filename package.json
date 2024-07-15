@@ -1,15 +1,14 @@
 {
   "name": "untitled",
-  "homepage": "https://github.com/OlgaSolo21/trainer.git",
+  "homepage": "https://OlgaSolo21.github.io/trainer",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
