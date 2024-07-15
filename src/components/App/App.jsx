@@ -26,7 +26,7 @@ function App() {
             <Header openBurger={handleOpenBurger}/>
 
             <Routes>
-                <Route path="/trainer-s-portfolio"
+                <Route path="/trainer-s-portfolio/"
                        element={<AboutMe/>} />
                 <Route path="/trainer-s-portfolio/contacts"
                        element={<Contacts/>}/>

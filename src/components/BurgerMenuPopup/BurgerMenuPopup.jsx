@@ -16,7 +16,7 @@ export default function BurgerMenuPopup({isOpen, onClose}) {
                         <nav className="popup__links">
                             <NavLink
                                 onClick={onClose}
-                                to="/"
+                                to="/trainer-s-portfolio/"
                                 className={({isActive}) =>
                                     `${isActive ? "popup__links-active" : ""} popup__title link`}>Главная</NavLink>
                             {/*<NavLink*/}
@@ -26,17 +26,17 @@ export default function BurgerMenuPopup({isOpen, onClose}) {
                             {/*        `${isActive ? "popup__links-active" : ""} popup__title link`}>Обо мне</NavLink>*/}
                             <NavLink
                                 onClick={onClose}
-                                to="/portfolio"
+                                to="/trainer-s-portfolio/portfolio"
                                 className={({isActive}) =>
                                     `${isActive ? "popup__links-active" : ""} popup__title link`}>Портфолио</NavLink>
                             <NavLink
                                 onClick={onClose}
-                                to="/contacts"
+                                to="/trainer-s-portfolio/contacts"
                                 className={({isActive}) =>
                                     `${isActive ? "popup__links-active" : ""} popup__title link`}>Контакты</NavLink>
                             <NavLink
                                 onClick={onClose}
-                                to="/resume"
+                                to="/trainer-s-portfolio/resume"
                                 className={({isActive}) =>
                                     `${isActive ? "popup__links-active" : ""} popup__title link`}>Резюме</NavLink>
                         </nav>
