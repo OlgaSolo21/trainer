@@ -1,7 +1,7 @@
 import nastavniki from "../images/nastavniki/nastavnichestvo.png"
 import nastavniki1 from "../images/nastavniki/nastavnichestvo1.png"
 import nastavniki2 from "../images/nastavniki/nastavnichestvo2.png"
-// import nastavniki3 from "../images/nastavniki/nastavnichestvo3.png"
+import nastavniki3 from "../images/nastavniki/nastavnichestvo3.png"
 // import nastavniki4 from "../images/nastavniki/nastavnichestvo4.png"
 // import nastavniki5 from "../images/nastavniki/nastavnichestvo5.png"
 // import nastavniki6 from "../images/nastavniki/nastavnichestvo6.png"
@@ -37,9 +37,9 @@ import navikiBaz2 from "../images/npBaz/npBaz2.png"
 
 import upravlenka from "../images/upravlenka/upravlenka.png"
 import upravlenka1 from "../images/upravlenka/upravlenka1.png"
-import upravlenka2 from "../images/upravlenka/upravlenka2.png"
-// import upravlenka3 from "../images/upravlenka/upravlenka3.png"
-// import upravlenka4 from "../images/upravlenka/upravlenka4.png"
+import upravlenka4 from "../images/upravlenka/upravlenka2.png"
+import upravlenka2 from "../images/upravlenka/upravlenka3.png"
+import upravlenka3 from "../images/upravlenka/upravlenka4.png"
 // import upravlenka5 from "../images/upravlenka/upravlenka5.png"
 // import upravlenka6 from "../images/upravlenka/upravlenka6.png"
 
@@ -166,7 +166,7 @@ export const nast = [
     nastavniki,
     nastavniki1,
     nastavniki2,
-    // nastavniki3,
+    nastavniki3,
     // nastavniki4,
     // nastavniki5,
     // nastavniki6,
@@ -209,8 +209,8 @@ export const uprav = [
     upravlenka,
     upravlenka1,
     upravlenka2,
-    // upravlenka3,
-    // upravlenka4,
+    upravlenka3,
+    upravlenka4,
     // upravlenka5,
     // upravlenka6
 ]
