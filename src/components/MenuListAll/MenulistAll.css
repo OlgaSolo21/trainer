@@ -11,6 +11,7 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     margin: 0 15px 15px;
+    align-items: center;
 }
 
 .info {
@@ -34,6 +35,16 @@
     line-height: 1.25;
     font-weight: 400;
     text-align: justify;
+}
+
+@media screen and (max-width: 780px){
+    .info__title {
+        font-size: 20px;
+    }
+
+    .info__description {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 740px) {

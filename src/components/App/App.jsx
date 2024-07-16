@@ -43,20 +43,6 @@ function App() {
                 <Route path="/portfolio/webinars"
                        element={<Webinars/>}/>
             </Routes>
-            {/*<Switch>*/}
-            {/*    <Route exact path="/">*/}
-            {/*        <AboutMe/>*/}
-            {/*    </Route>*/}
-            {/*    <Route path="/contacts">*/}
-            {/*           <Contacts/>*/}
-            {/*    </Route>*/}
-            {/*    <Route path="/portfolio">*/}
-            {/*           <Portfolio/>*/}
-            {/*    </Route>*/}
-            {/*    <Route path="/resume">*/}
-            {/*           <Resume />*/}
-            {/*    </Route>*/}
-            {/*</Switch>*/}
 
             <Footer/>
 
