@@ -1,8 +1,8 @@
 import nastavniki from "../images/nastavniki/nastavnichestvo.png"
 import nastavniki1 from "../images/nastavniki/nastavnichestvo1.png"
-// import nastavniki2 from "../images/nastavniki/nastavnichestvo2.png"
-import nastavniki3 from "../images/nastavniki/nastavnichestvo3.png"
-import nastavniki4 from "../images/nastavniki/nastavnichestvo4.png"
+import nastavniki2 from "../images/nastavniki/nastavnichestvo2.png"
+// import nastavniki3 from "../images/nastavniki/nastavnichestvo3.png"
+// import nastavniki4 from "../images/nastavniki/nastavnichestvo4.png"
 // import nastavniki5 from "../images/nastavniki/nastavnichestvo5.png"
 // import nastavniki6 from "../images/nastavniki/nastavnichestvo6.png"
 // import nastavniki7 from "../images/nastavniki/nastavnichestvo7.png"
@@ -68,14 +68,14 @@ import onlineMeeting2 from "../images/onlineMeeting/onlineMeeting2.png"
 
 import diffClient from "../images/diffClients/diffClients.png"
 import diffClient1 from "../images/diffClients/diffClients1.png"
-// import diffClient2 from "../images/diffClients/diffClients2.png"
+import diffClient9 from "../images/diffClients/diffClients2.png"
 // import diffClient3 from "../images/diffClients/diffClients3.png"
 // import diffClient4 from "../images/diffClients/diffClients4.png"
 // import diffClient5 from "../images/diffClients/diffClients5.png"
 // import diffClient6 from "../images/diffClients/diffClients6.png"
 // import diffClient7 from "../images/diffClients/diffClients7.png"
 // import diffClient8 from "../images/diffClients/diffClients8.png"
-import diffClient9 from "../images/diffClients/diffClients9.png"
+import diffClient2 from "../images/diffClients/diffClients9.png"
 
 import feedback0 from "../images/IT-os/feedback.png"
 import feedback1 from "../images/IT-os/feedback1.png"
@@ -87,8 +87,8 @@ import feedback1 from "../images/IT-os/feedback1.png"
 import feedback7 from "../images/IT-os/feedback7.png"
 
 import network from "../images/networking/networking.png"
-import network1 from "../images/networking/networking1.png"
-import network2 from "../images/networking/networking2.png"
+import network2 from "../images/networking/networking1.png"
+import network1 from "../images/networking/networking2.png"
 // import network3 from "../images/networking/networking3.png"
 // import network4 from "../images/networking/networking4.png"
 // import network5 from "../images/networking/networking5.png"
@@ -98,7 +98,7 @@ import callCold from "../images/coldCalls/call.png"
 import callCold0 from "../images/coldCalls/call0.png"
 import callCold1 from "../images/coldCalls/call1.png"
 import callCold2 from "../images/coldCalls/call2.png"
-import callCold3 from "../images/coldCalls/call3.png"
+// import callCold3 from "../images/coldCalls/call3.png"
 // import callCold4 from "../images/coldCalls/call4.png"
 // import callCold5 from "../images/coldCalls/call5.png"
 // import callCold6 from "../images/coldCalls/call6.png"
@@ -122,8 +122,8 @@ import bchr9 from "../images/BChR/bchr9.png"
 import bchr11 from "../images/BChR/bchr11.png"
 
 import fonda from "../images/investMarafon/fonda.png"
-import fonda1 from "../images/investMarafon/fonda1.png"
-import fonda2 from "../images/investMarafon/fonda2.png"
+import fonda2 from "../images/investMarafon/fonda1.png"
+import fonda1 from "../images/investMarafon/fonda2.png"
 import fonda3 from "../images/investMarafon/fonda3.png"
 // import fonda4 from "../images/investMarafon/fonda4.png"
 // import fonda5 from "../images/investMarafon/fonda5.png"
@@ -165,9 +165,9 @@ import nalog5 from "../images/investMarafon/nalogi5.png"
 export const nast = [
     nastavniki,
     nastavniki1,
-    // nastavniki2,
-    nastavniki3,
-    nastavniki4,
+    nastavniki2,
+    // nastavniki3,
+    // nastavniki4,
     // nastavniki5,
     // nastavniki6,
     // nastavniki7,
@@ -247,7 +247,7 @@ export const online = [
 export const diffClients = [
     diffClient,
     diffClient1,
-    // diffClient2,
+    diffClient2,
     // diffClient3,
     // diffClient4,
     // diffClient5,
@@ -283,7 +283,7 @@ export const call = [
     callCold0,
     callCold1,
     callCold2,
-    callCold3,
+    // callCold3,
     // callCold4,
     // callCold5,
     // callCold6,
