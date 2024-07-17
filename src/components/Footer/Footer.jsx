@@ -5,7 +5,7 @@ export  default function Footer() {
                 <p className="footer__caption">The trainer's business card website</p>
                 <div className="footer__navigation">
                     <p className="footer__copyright">&copy; 2024</p>
-                    <p className="footer__copyright">create by Solodovnikova Olga</p>
+                    <p className="footer__copyright">created by Solodovnikova Olga</p>
                 </div>
             </article>
         </footer>
